@@ -6,7 +6,7 @@ try:#1.	Ввести строку, вывести на экран только �
     words = s.split()
     mwords = [i for i in words if p in i]
     for i in mwords:
-        print(i)
+        print(i) #
     if i == 0:
         print('Нет слов, имеющих образец поиска')
 except:
