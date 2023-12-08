@@ -4,7 +4,7 @@ try:#1.	Ввести строку, вывести на экран только �
     print("Введите образец поиска")
     p = input()
     words = s.split()
-    mwords = [i for i in words if p in i]
+    mwords = [i for i in words if p in i]#22
     for i in mwords:
         print(i) #
     if i == 0:
